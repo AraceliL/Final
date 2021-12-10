@@ -57,8 +57,8 @@
                                             <tr>
                                                 <th><?php  echo $row['id']?></th>
                                                 <th><?php  echo $row['nombre']?></th>
-                                                <th><?php  echo $row['descripción']?></th>
-                                                <th><?php  echo $row['categoría']?></th>  
+                                                <th><?php  echo $row['descripcion']?></th>
+                                                <th><?php  echo $row['categoria']?></th>  
                                                 <th><?php  echo $row['cantidad']?></th>
                                                 <th><?php  echo $row['precio']?></th>  
                                                 <th><a href="actualizar.php?id=<?php echo $row['id'] ?>" class="btn btn-info">Editar</a></th>
