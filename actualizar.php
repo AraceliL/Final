@@ -28,8 +28,8 @@ $row=mysqli_fetch_array($query);
                                 <input type="hidden" name="id" value="<?php echo $row['id']  ?>">
                                 
                                 <input type="text" class="form-control mb-3" name="nombre" placeholder="Nombre" value="<?php echo $row['nombre']  ?>">
-                                <input type="text" class="form-control mb-3" name="descripción" placeholder="Descripcion" value="<?php echo $row['descripción']  ?>">
-                                <input type="text" class="form-control mb-3" name="categoría" placeholder="Categoria" value="<?php echo $row['categoría']  ?>">
+                                <input type="text" class="form-control mb-3" name="descripcion" placeholder="Descripcion" value="<?php echo $row['descripción']  ?>">
+                                <input type="text" class="form-control mb-3" name="categoria" placeholder="Categoria" value="<?php echo $row['categoría']  ?>">
                                 <input type="text" class="form-control mb-3" name="cantidad" placeholder="Cantidad" value="<?php echo $row['cantidad']  ?>">
                                 <input type="text" class="form-control mb-3" name="precio" placeholder="Precio" value="<?php echo $row['precio']  ?>">
                             <input type="submit" class="btn btn-primary btn-block" value="Actualizar">
