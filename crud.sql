@@ -30,8 +30,8 @@ SET time_zone = "+00:00";
 CREATE TABLE `productos` (
   `id` int(11) NOT NULL,
   `nombre` varchar(50) NOT NULL,
-  `descripción` varchar(150) NOT NULL,
-  `categoría` varchar(45) NOT NULL,
+  `descripcion` varchar(150) NOT NULL,
+  `categoria` varchar(45) NOT NULL,
   `cantidad` int(11) NOT NULL,
   `precio` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -40,7 +40,7 @@ CREATE TABLE `productos` (
 -- Volcado de datos para la tabla `productos`
 --
 
-INSERT INTO `productos` (`id`, `nombre`, `descripción`, `categoría`, `cantidad`, `precio`) VALUES
+INSERT INTO `productos` (`id`, `nombre`, `descripcion`, `categoria`, `cantidad`, `precio`) VALUES
 (17240125, 'Bota lizard', 'Bora para dama, estilo rodeo, tallas 23-27', 'Dama', 65, 1799),
 (17240145, 'Botín charro', 'Botín charro para caballero, tallas 25-30\r\nColor nude, café, negro.', 'Caballero', 45, 1549),
 (17242560, 'Bota flores', 'Bora para dama, estilo rodeo, tallas 23-27', 'Dama', 23, 1799),
